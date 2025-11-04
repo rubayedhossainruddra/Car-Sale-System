@@ -1,0 +1,105 @@
+Car Sale Management System
+
+A Java Swing-based desktop application designed to manage the sale of cars efficiently.
+The system includes different user roles — Admin, Staff (Salesman), and User — each with their own functionalities.
+Data is stored using JSON, making it simple, file-based, and ideal for educational and learning purposes.
+
+🧩 Features
+👑 Admin
+
+Add, update, and delete car listings
+
+Manage all car details: brand, model, year, type, fuel, transmission, condition, color, status, and price
+
+Manage registered staff and users
+
+View all sales records and user histories
+
+🧍 Staff / Salesman
+
+View car listings added by admin
+
+Manage assigned cars or bookings
+
+Process user payments and confirm car sales
+
+Update car status after sale completion
+
+👤 User
+
+Register and log in to the system
+
+Browse available cars with details
+
+Book or purchase cars
+
+View personal purchase and booking history
+
+💾 Data Management
+
+Each user has a personal folder containing:
+
+credentials.json → login data
+
+info.json → user information
+
+History.json → booking and payment history
+
+All car and transaction data stored in JSON format
+
+Data auto-updates when actions occur (e.g., booking, purchase, or car status change)
+
+⚙️ Technologies Used
+
+Java Swing – GUI framework
+
+GSON Library – for JSON data handling
+
+NetBeans 8.2 – IDE for development
+
+🧭 How to Run
+
+Download or clone this repository:
+
+git clone https://github.com/yourusername/CarSaleSystem.git
+
+
+Open the project in NetBeans 8.2 (or compatible version).
+
+Make sure the GSON library is added to the project libraries.
+
+Clean and build the project.
+
+Run the main class to start the system.
+
+📁 Project Structure
+CarSaleSystem/
+│
+├── src/                     # All Java source code
+│   ├── admin/               # Admin module
+│   ├── staff/               # Staff/Salesman module
+│   └── user/                # User module
+│
+├── nbproject/               # NetBeans project settings
+├── Users/                   # Contains user folders and JSON files
+├── Cars.json                # Central car data
+├── .gitignore
+├── build.xml
+└── LICENSE
+
+🪪 License
+
+This project is licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
+
+You may:
+
+Use, share, and modify this project for educational or personal purposes
+
+Not use it for commercial purposes or resale
+
+📄 Read the full license here
+
+Author
+
+Rubayed Hossain Ruddra
